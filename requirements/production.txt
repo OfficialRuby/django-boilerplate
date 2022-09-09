@@ -1,0 +1,4 @@
+-r base.txt
+sentry-sdk
+psycopg2-binary
+gunicorn

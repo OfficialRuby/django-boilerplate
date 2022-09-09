@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+migrations/
+temp/
+media/
+static/
+db.sqlite3
+sample-image/
+.env
+.dockerignore
+*.key
+*.conf
