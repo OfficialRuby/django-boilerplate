@@ -5,6 +5,7 @@ charset-normalizer
 cryptography
 defusedxml
 Django
+django-allauth
 django-cleanup
 idna
 oauthlib
