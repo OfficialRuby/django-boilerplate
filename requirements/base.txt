@@ -21,3 +21,5 @@ toml
 urllib3
 python-decouple
 pytz
+geoip2
+tqdm

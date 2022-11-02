@@ -7,5 +7,4 @@ DATABASES = {
     }
 }
 
-
-DEFAULT_FROM_EMAIL = "Reuben Sunday  <reubensunday@zohomail.com>"
+DEFAULT_FROM_EMAIL = config('DEFAULT_FROM_EMAIL')
