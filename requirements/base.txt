@@ -7,6 +7,7 @@ defusedxml
 Django
 django-allauth
 django-cleanup
+django-dotenv
 idna
 oauthlib
 Pillow
