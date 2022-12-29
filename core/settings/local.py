@@ -8,3 +8,4 @@ DATABASES = {
 }
 
 DEFAULT_FROM_EMAIL = config('DEFAULT_FROM_EMAIL')
+EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
