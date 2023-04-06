@@ -4,7 +4,6 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
-
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', cast=bool)
 
@@ -100,6 +99,7 @@ ACCOUNT_FORMS = {
 }
 
 LANGUAGE_CODE = 'en-us'
-TIME_ZONE = 'Africa/Lagos'
+TIME_ZONE = 'UTC'
 USE_I18N = True
 USE_TZ = True
+DEFAULT_SUPPORT_EMAIL = config('DEFAULT_SUPPORT_EMAIL')

@@ -10,3 +10,4 @@ sample-image/
 .dockerignore
 *.key
 *.conf
+template/
